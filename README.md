@@ -13,7 +13,7 @@ Below are links to setup guides and instructions to run the projects. All projec
 - [Vivado Guide](https://docs.google.com/document/d/1O-y1rnS1V_Bjyc2GwYd9C6Gq1IsqVcxacy2lTD6tHME/edit?usp=sharing)
 
 
-**Getting the Examples:!!!!!! make this repo right for push/pull access!!!!!**
+**Getting the Examples:**
 ```bash
 $ git clone https://github.com/ebiernacki/chisel-projects.git
 ```
