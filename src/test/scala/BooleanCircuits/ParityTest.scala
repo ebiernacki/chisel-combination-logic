@@ -19,6 +19,9 @@ class ParityTest extends AnyFlatSpec with ChiselScalatestTester {
                     dut.clock.step()
 
                     var z = dut.io.z.peek().litValue
+
+                    val expected = in1 ^ in2
+                    dut.io.z.expect(expected.U)
                     println(s"$in1 | $in2 | $z") //fancy print formatting
                 }
             }
