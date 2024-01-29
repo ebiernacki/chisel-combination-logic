@@ -2,7 +2,8 @@ package BooleanCircuits
 
 import chisel3._
 
-//5 bit parity module
+//Here is the set up for a 5 bit parity module
+//Use the Xor Module to find the parity of the input (whether the number of 1's is even or odd)
 class Parity extends Module{
     val io = IO(new Bundle{
         val in1 = Input(UInt(1.W))
