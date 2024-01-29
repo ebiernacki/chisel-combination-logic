@@ -1,10 +1,7 @@
-# Chisel Projects Repository
+# Chisel Combinational Logic Repository
+This repo contains some quick combinational logic scala files and their test cases. You'll also find the bones for a "Parity Module" to complete
 
-**Author:** Eric Biernacki(ebiernacki@wustl.edu) under the advisement of Professor Ron Cytron(cytron@wustl.edu)
-
-This repository contains all the projects I have created in [Chisel](https://www.chisel-lang.org/) for the Digital Design Course at WUSTL.
-
-Below are links to setup guides and instructions to run the projects. All projects were created for the Basys3 Delevopment Board with and 100MHz internal clock. 
+Below are links to setup guides and instructions to run the projects. 
 
 ## External Setup Guides and Running the Projects
 
