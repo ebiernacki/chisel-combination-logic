@@ -15,7 +15,7 @@ Below are links to setup guides and instructions to run the projects. All projec
 
 **Getting the Examples:**
 ```bash
-$ git clone https://github.com/ebiernacki/chisel-projects.git
+$ https://github.com/ebiernacki/chisel-combination-logic.git 
 ```
 
 - **Needed Tools (Thorough walkthrough located in the Setup Guides):**
