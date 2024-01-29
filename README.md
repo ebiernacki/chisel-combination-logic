@@ -1,5 +1,5 @@
 # Chisel Combinational Logic Repository
-This repo contains some quick combinational logic scala files and their test cases. You'll also find the bones for a "Parity Module" to complete
+This repo contains some quick combinational logic scala files and their test cases. You'll also find the bones for an Xor and Parity Module to complete and the test cases to run with it
 
 Below are links to setup guides and instructions to run the projects. 
 
@@ -22,11 +22,11 @@ $ https://github.com/ebiernacki/chisel-combination-logic.git
     - Vivado or other toolchain (I used Vivado 2020.2)
 
 
-- **Running the Examples: **
+- **Testing the Examples: **
     - To generate Verilog files for the And Module:
         ```bash
         sbt
-        runMain BooleanCircuits.AndMain
+        testOnly BooleanCircuits.AndTest
         ```
 
 

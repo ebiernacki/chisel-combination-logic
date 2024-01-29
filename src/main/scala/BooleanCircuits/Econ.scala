@@ -1,8 +1,6 @@
 package BooleanCircuits
 
 import chisel3._
-import chisel3.stage._
-import circt.stage._
 
 class Econ extends Module {
     val io = IO(new Bundle{
@@ -25,8 +23,3 @@ class Econ extends Module {
 
     io.output := orModule.io.z
 }
-
-object EconMain extends App {
-	ChiselStage.emitSystemVerilog(new Econ, firtoolOpts = Array("-o=generated/Econ.sv"))
-}
-
